@@ -1,23 +1,26 @@
-# pp [{ id: 1, hello: "World" }, 
-#     { id: 2, hello: "Ruby" }, 
-#     { id: 3, hello: "Moon" }, 
-#     { id: 4, hello: "Learner" }]
+# app.rb
+# puts always retuns nil
+# puts "Hello world!"
+# puts("Hello world!")
+# puts "Hello world!"
 
+# print("Hello world!")
+# print("Hello world!")
+# print("Hello world!")
+
+# This is the equivalent of calling:
+# puts [1, 2, 3].inspect
+# p is used with data types that are mostly not strings
 # p [1,2,3]
-# puts "Hello World!"
-# print "Pass this test, please."
-# p [1,2,3]
 
-# def add
-    
-# end
-# # 1 + 1
-# puts add + add
+# pp is for "pretty-printing" complex data such as nested arrays and hashes
+# pp [{ id: 1, hello: "World" }, { id: 2, hello: "Ruby" }, { id: 3, hello: "Moon" }, { id: 4, hello: "Learner" }]
 
-def add num1, num2
-    puts num1
-    puts num2
-    num1 + num2
-end
+#Test 1
+puts("Hello World!")
 
-puts add(1,3) + add(2,2)
+#Test 2
+print("Pass this test, please.")
+
+#Test 3
+p [1,2,3]
